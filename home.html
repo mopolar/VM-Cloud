@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>E-shopper</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
+        <link href="css/home.css" rel="stylesheet">
+    </head>
+    <body>
+        <!-----      Header     ----->
+        <nav role="navigation" class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a href="index.html" class="navbar-brand" style="margin-top: 10px; font-size: 20px;"><span style="color: chartreuse">VM</span><span style="color: whitesmoke">Cloud</span></a>
+                    <button type="button" class="navbar-toggle" data-target="#nav1" data-toggle="collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="navbar-collapse collapse" id="nav1">
+                    <ul class="nav navbar-nav navbar-right">
+                          <li><a href="index2.html">Home</a></li>
+                          <li><a href="#">About</a></li>
+                          <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section id="home" class="slider">
+            <div class="container">
+                <div class="row">
+                    <div class="carousel slide carousel-fade" data-ride="carousel" id="mycarousel">
+                    <div class="header-backup"></div>
+                    <ol class="carousel-indicators">
+                        <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#mycarousel" data-slide-to="1"></li>
+                        <li data-target="#mycarousel" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="images/animal-cattle-close-up-254178.jpg" alt="">
+                            <div class="carousel-caption">
+                                <h1>Ruminants</h1>
+                                <p>Cattle, Buffalo, Sheep & Goat</p>
+                                <button><a style="color: #fff;" href="shop.html">view more</a></button>
+                            </div>
+                            
+                        </div>
+                        <div class="item">
+                            <img src="images/animals-cats-cute-45170.jpg" alt="">
+                            <div class="carousel-caption">
+                                <h1>Pets</h1>
+                                <p>Cats & Dogs</p>
+                                <button><a style="color: #fff;" href="shop.html">view more</a></button>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="images/animal-black-daylight-101667.jpg" alt="">
+                            <div class="carousel-caption">
+                                <h1>Equines</h1>
+                                <p>Horse, Donkey & Mule</p>
+                                <button><a style="color: #fff;" href="shop.html">view more</a></button>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="left carousel-control" href="#mycarousel" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true" style="width: 1.6em;"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#mycarousel" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true" style="width: 1.6em;"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                </div>
+            </div>
+        </section>
+        <div class="contact container text-center">
+            <div class="inline space1">
+                <a href="#" class="btn" data-target="#signup" data-toggle="modal">Signup</a>
+                <div id="signup" class="modal fade" role="dialog">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <button data-dismiss="modal" class="close">&times;</button>
+                                <div class="tab-types">
+                                    <ul class="nav nav-tabs">
+                                        <li class="active"><a data-toggle="tab" href="#home">Pharmacy</a></li>
+                                        <li><a data-toggle="tab" href="#menu2">Distributor</a></li>
+                                        <li><a data-toggle="tab" href="#menu3">Company</a></li>
+                                    </ul>
+                                    <div class="tab-content">
+                                        <div id="home" class="tab-pane fade in active">
+                                            <form>
+                                                <input type="text" name="username" class="same form-control" placeholder="Company Name"/>
+                                                <input type="text" name="username" class="same form-control" placeholder="Full Name"/>
+                                                <input type="email" name="username" class="same form-control" placeholder="Email"/>
+                                                <input type="number" name="username" class="same form-control" placeholder="Number of Branches"/>
+                                                <input type="password" name="password" class="same form-control" placeholder="Password"/>
+                                                <input type="password" name="password" class="same form-control" placeholder="Confirm Password"/>
+                                                <div class="text-center">
+                                                    <input class="btn login" type="submit" value="Signup" />
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div id="menu2" class="tab-pane fade in">
+                                            <form>
+                                                <input type="text" name="username" class="same form-control" placeholder="Company Name"/>
+                                                <input type="text" name="username" class="same form-control" placeholder="Full Name"/>
+                                                <input type="email" name="username" class="same form-control" placeholder="Email"/>
+                                                <input type="number" name="username" class="same form-control" placeholder="Number of Branches"/>
+                                                <input type="password" name="password" class="same form-control" placeholder="Password"/>
+                                                <input type="password" name="password" class="same form-control" placeholder="Confirm Password"/>
+                                                <div class="text-center">
+                                                    <input class="btn login" type="submit" value="Signup" />
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div id="menu3" class="tab-pane fade in">
+                                            <form>
+                                                <input type="text" name="username" class="same form-control" placeholder="Company Name"/>
+                                                <input type="text" name="username" class="same form-control" placeholder="Full Name"/>
+                                                <input type="email" name="username" class="same form-control" placeholder="Email"/>
+                                                <input type="number" name="username" class="same form-control" placeholder="Number of Branches"/>
+                                                <input type="password" name="password" class="same form-control" placeholder="Password"/>
+                                                <input type="password" name="password" class="same form-control" placeholder="Confirm Password"/>
+                                                <div class="text-center">
+                                                    <input class="btn login" type="submit" value="Signup" />
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+            <div class="inline space2">
+                <a href="#" class="btn" data-target="#login" data-toggle="modal">Login</a>
+                <div id="login" class="modal fade" role="dialog">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <button data-dismiss="modal" class="close">&times;</button>
+                                <h4>Login</h4>
+                                <form>
+                                    <input type="text" name="username" class="same form-control" placeholder="Username"/>
+                                    <input type="password" name="password" class="same form-control" placeholder="password"/>
+                                        <div class="text-center">
+                                            <a href="index2.html" class="login" style="margin-top: 5px;">Login</a><p class="forget"><a href="#">Forget your password?</a></p>
+                                        </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
